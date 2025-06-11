@@ -1,0 +1,52 @@
+
+public class Practice_Problem1 {
+
+    public static void addTwoNumbers(int a, int b) {
+        System.out.println(a+b);
+    }
+
+    public static void celsiusToFahrenheit(double celsius) {
+        System.out.println((celsius * 9 / 5) + 32);
+
+    }
+
+    public static void areaOfCircle(double radius) {
+        System.out.println(Math.PI * Math.pow(radius, 2));
+    }
+
+    public static void volumeOfCylinder(double radius, double height) {
+        System.out.println(Math.PI * Math.pow(radius, 2) * height);
+    }
+
+    public static void calculateSimpleInterest(double principal, double rate, double time) {
+        System.out.println((principal * rate * time) / 100);
+    }
+
+    public static void perimeterOfRectangle(double length, double width) {
+        System.out.println(2 * (length + width));
+    }
+
+    public static void power(double base, double exponent) {
+        System.out.println(Math.pow(base, exponent));
+    }
+
+    public static void averageOfThreeNumbers(double num1, double num2, double num3) {
+        System.out.println((num1 + num2 + num3) / 3);
+    }
+
+    public static void kilometersToMiles(double kilometers) {
+        System.out.println(kilometers * 0.621371);
+    }
+
+    public static void main(String[] args) {
+        addTwoNumbers(5, 10);
+        celsiusToFahrenheit(25.0);
+        areaOfCircle(7.0);
+        volumeOfCylinder(3.0, 5.0);
+        calculateSimpleInterest(1000, 5, 2);
+        perimeterOfRectangle(4.0, 6.0);
+        power(2.0, 3.0);
+        averageOfThreeNumbers(10.0, 20.0, 30.0);
+        kilometersToMiles(100.0);
+    }
+}
